@@ -75,13 +75,9 @@ document.getElementById('prev-button').addEventListener('click', function(){
 })
 
 
-
-
-
-
 //------ FUNCTIONS ---------------------------------------------
 
-function newImage (urlI, title, description){
+function newImage(urlI, title, description){
 
     imagesElement = {
         url: 
@@ -97,3 +93,4 @@ function newImage (urlI, title, description){
     return imagesElement;
 
 }
+

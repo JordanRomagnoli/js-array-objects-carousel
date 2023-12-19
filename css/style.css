@@ -6,6 +6,7 @@
 }
 
 .text-style{
+    width: 100%;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -22,8 +23,6 @@
     display: none;
 }
 
-
-
-.card-container{
-    min-height: 300px;
+#thumbnail-card-container{
+    border: 1px solid black;
 }
